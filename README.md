@@ -1,4 +1,4 @@
-# React Allergens
+# Pensano's icons library
 
 Ready to use SVG components of allergens for React!
 
@@ -13,14 +13,14 @@ yarn add react-allergens
 ## Usage
 
 ```jsx
-import { FishIcon } from 'react-allergens';
+import { FishIcon } from "react-allergens";
 
 const Example = () => {
   return <FishIcon />;
 };
 
 const ExampleProps = () => {
-  return <FishIcon width={100} height={100} wrapperStyle={{ float: 'left' }} />;
+  return <FishIcon width={100} height={100} wrapperStyle={{ float: "left" }} />;
 };
 ```
 
