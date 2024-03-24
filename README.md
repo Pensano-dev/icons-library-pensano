@@ -1,8 +1,8 @@
 # Pensano's icons library
 
-Ready to use SVG components of allergens for React!
+Ready to use SVG components of Aura for React!
 
-## Installation
+## Installation - from the template repo to use as example
 
 ### Yarn
 
@@ -13,14 +13,16 @@ yarn add react-allergens
 ## Usage
 
 ```jsx
-import { FishIcon } from "react-allergens";
+import { PhoneIcon } from "react-allergens";
 
 const Example = () => {
-  return <FishIcon />;
+  return <PhoneIcon />;
 };
 
 const ExampleProps = () => {
-  return <FishIcon width={100} height={100} wrapperStyle={{ float: "left" }} />;
+  return (
+    <PhoneIcon width={100} height={100} wrapperStyle={{ float: "left" }} />
+  );
 };
 ```
 
